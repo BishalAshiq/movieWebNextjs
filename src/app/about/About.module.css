@@ -1,0 +1,9 @@
+.h1_tag {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.p_tag {
+  text-align: justify;
+  margin: 20px;
+}
