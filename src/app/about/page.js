@@ -1,10 +1,13 @@
 import React from "react";
+import AboutCss from "./About.module.css";
 
 const Page = () => {
   return (
-    <>
-      <h1>about us</h1>
-    </>
+    <main>
+      <div>
+        <h1>Welcome to CineHub</h1>
+      </div>
+    </main>
   );
 };
 export default Page;

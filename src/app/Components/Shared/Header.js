@@ -3,6 +3,7 @@ import header from "./Header.module.css";
 
 import Link from "next/link";
 import Image from "next/image";
+import Nav from "./Nav";
 
 const Header = () => {
   return (
@@ -10,13 +11,15 @@ const Header = () => {
       <div className={header.navbar_brand}>
         <Link href="/">
           <Image
-            src="/dis.png"
-            width={100}
+            src="/faparlix.png"
+            width={230}
             height={20}
             alt="Picture of the author"
           />
         </Link>
       </div>
+
+      <Nav />
     </header>
   );
 };

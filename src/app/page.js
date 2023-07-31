@@ -1,9 +1,10 @@
 import React from "react";
 import "./globals.css";
+import HeroSection from "./Components/Home/HeroSection";
 const Page = () => {
   return (
     <div className="page-div">
-      <h1>Hello</h1>
+      <HeroSection />
     </div>
   );
 };
