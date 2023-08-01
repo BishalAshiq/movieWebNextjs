@@ -1,0 +1,35 @@
+.page_Tag {
+  display: grid;
+  place-items: center;
+  font-size: 1.8rem;
+}
+.movie_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 2%;
+}
+.single_movie_div {
+  padding: 2%;
+  display: grid;
+  place-items: center;
+  margin: 4% 2%;
+}
+.movie_image {
+  border-radius: 10%;
+}
+
+.button_read_more {
+  border: 1px solid gray;
+  border-radius: 10%;
+  padding: 1% 5%;
+}
+.button_read_more:hover {
+  background-color: black;
+  cursor: pointer;
+  color: aliceblue;
+}
+.movies_description {
+  text-align: justify;
+  line-height: 1.2;
+  margin: 3% 0;
+}
