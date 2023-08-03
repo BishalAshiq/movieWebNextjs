@@ -24,19 +24,29 @@ const HeroSection = ({ title, imageUrl }) => {
               got you covered. Browse our selection of the latest and greatest
               movies, and find your new favorite today.
             </p>
-            <Link href="/movie">
+            <Link href="/movie" className={HeroSectionCss.Home_button}>
               <button className={mulish.className}>Explore Movies</button>
             </Link>
           </div>
           <div className={HeroSectionCss.hero_image}>
             <Image
               className={HeroSectionCss.Hmoviebanner}
-              src="/Hmoviebanner.jpg"
+              src="/m-6.jpg"
               alt="watching netflix"
               width={500}
               height={500}
             />
           </div>
+        </div>
+        <div>
+          <div>
+            <h1>Top 10 movies this week</h1>
+            <p>
+              Check out this week’s most popular movies and find out where to
+              watch them.
+            </p>
+          </div>
+          <div>{/* <Slider /> */}</div>
         </div>
       </div>
     </main>

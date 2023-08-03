@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import MoviesCss from "./Movies.module.css";
 import { Mulish } from "next/font/google";
+import Link from "next/link";
 
 const mulish = Mulish({
   weight: "700",
@@ -37,7 +38,9 @@ const page = () => {
               Dom Cobb (Leonardo DiCaprio) is a skilled thief, the absolute best
               in the dangerous art of extraction.
             </p>
-            <button className={MoviesCss.button_read_more}>Read More</button>
+            <Link className={MoviesCss.button_read_more} href="/movie">
+              <button>Read More</button>
+            </Link>
           </div>
           <div className={MoviesCss.single_movie_div}>
             <Image

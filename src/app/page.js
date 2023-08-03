@@ -1,6 +1,7 @@
 import React from "react";
 import "./globals.css";
 import HeroSection from "./Components/Home/HeroSection";
+
 const Page = () => {
   return (
     <div className="page-div">

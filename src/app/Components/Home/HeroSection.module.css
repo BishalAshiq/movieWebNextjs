@@ -69,7 +69,16 @@
   overflow: hidden;
   line-height: 0;
 }
-
+.Home_button {
+  border: 1px solid gray;
+  border-radius: 10%;
+  padding: 1% 5%;
+}
+.Home_button:hover {
+  background-color: black;
+  cursor: pointer;
+  color: aliceblue;
+}
 .custom-shape-divider-bottom-1681647578 svg {
   position: relative;
   display: block;
